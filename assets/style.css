@@ -243,3 +243,9 @@ a{color:inherit; text-decoration:none}
 .legal h1{margin:0 0 8px}
 .legal p{color:var(--muted); line-height:1.8}
 .legal h2{margin:26px 0 10px}
+    }
+  .logo-img{
+  height:46px;
+  width:auto;
+  display:block;
+}
