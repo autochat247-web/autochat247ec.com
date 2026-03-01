@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Política de Privacidad | AutoChat 24/7</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html"><span class="dot"></span><span>AutoChat 24/7</span></a>
+      <div class="menu">
+        <a href="index.html#inicio">Inicio</a>
+        <a href="index.html#soluciones">Soluciones</a>
+        <a href="index.html#planes">Planes</a>
+        <a href="index.html#empresa">Empresa</a>
+        <a href="index.html#contacto">Contacto</a>
+        <a class="cta-small" href="https://wa.me/593987309452?text=Hola%20AutoChat%2024%2F7" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
+  <main class="legal">
+    <h1>Política de Privacidad</h1>
+    <p>Última actualización: 2026-03-01</p>
+
+    <p>
+      AutoChat 24/7 valora tu privacidad. Esta Política describe cómo recopilamos, usamos y protegemos la información
+      cuando interactúas con nuestros canales (por ejemplo, WhatsApp, Messenger) y cuando visitas nuestro sitio web.
+    </p>
+
+    <h2>1. Información que recopilamos</h2>
+    <p>
+      Podemos recopilar información proporcionada por ti, como: nombre, número de teléfono, ciudad, empresa, correo electrónico
+      y detalles relacionados con tu solicitud (por ejemplo, productos/servicios de interés).
+    </p>
+
+    <h2>2. Cómo usamos la información</h2>
+    <p>
+      Usamos la información para: (a) responder solicitudes, (b) brindar demostraciones o propuestas, (c) implementar y dar soporte a sistemas,
+      (d) mejorar nuestros servicios, y (e) cumplir obligaciones legales cuando aplique.
+    </p>
+
+    <h2>3. Canales de mensajería</h2>
+    <p>
+      Cuando conversas con AutoChat 24/7 por mensajería, la información puede ser procesada para clasificar tu solicitud,
+      derivarte al asesor correspondiente y registrar el seguimiento (por ejemplo, en herramientas de gestión como hojas de cálculo o CRM).
+    </p>
+
+    <h2>4. Compartición de información</h2>
+    <p>
+      No vendemos tu información. Podemos compartirla únicamente con proveedores tecnológicos necesarios para operar el servicio
+      (por ejemplo, mensajería, automatización, almacenamiento) y bajo medidas de seguridad razonables.
+    </p>
+
+    <h2>5. Seguridad</h2>
+    <p>
+      Aplicamos medidas técnicas y organizativas para proteger la información. Sin embargo, ningún sistema es 100% infalible.
+    </p>
+
+    <h2>6. Retención</h2>
+    <p>
+      Conservamos la información el tiempo necesario para cumplir la finalidad de la atención, soporte, obligaciones legales o auditoría interna.
+    </p>
+
+    <h2>7. Tus derechos</h2>
+    <p>
+      Puedes solicitar acceso, corrección o eliminación de tus datos, según corresponda, escribiéndonos por nuestros canales oficiales.
+    </p>
+
+    <h2>8. Contacto</h2>
+    <p>
+      Para consultas sobre privacidad: <strong>autochat.soporte@gmail.com</strong> o WhatsApp <strong>+593 98 730 9452</strong>.
+    </p>
+  </main>
+
+  <footer class="footer">
+    <div class="container" style="display:flex; gap:14px; flex-wrap:wrap; align-items:center; justify-content:space-between">
+      <div>© 2026 AutoChat 24/7.</div>
+      <div style="display:flex; gap:14px; flex-wrap:wrap">
+        <a href="index.html">Inicio</a>
+        <a href="terms.html">Términos de Servicio</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
