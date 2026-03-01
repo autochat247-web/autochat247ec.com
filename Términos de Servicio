@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Términos de Servicio | AutoChat 24/7</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html"><span class="dot"></span><span>AutoChat 24/7</span></a>
+      <div class="menu">
+        <a href="index.html#inicio">Inicio</a>
+        <a href="index.html#soluciones">Soluciones</a>
+        <a href="index.html#planes">Planes</a>
+        <a href="index.html#empresa">Empresa</a>
+        <a href="index.html#contacto">Contacto</a>
+        <a class="cta-small" href="https://wa.me/593987309452?text=Hola%20AutoChat%2024%2F7" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
+  <main class="legal">
+    <h1>Términos de Servicio</h1>
+    <p>Última actualización: 2026-03-01</p>
+
+    <p>
+      Al usar este sitio web y/o comunicarte con AutoChat 24/7 por canales de mensajería, aceptas estos Términos.
+      Si no estás de acuerdo, por favor no uses nuestros servicios.
+    </p>
+
+    <h2>1. Alcance del servicio</h2>
+    <p>
+      AutoChat 24/7 ofrece servicios de diseño, implementación y soporte de sistemas de automatización empresarial.
+      Las características exactas dependen del plan contratado y del alcance acordado con el cliente.
+    </p>
+
+    <h2>2. Uso adecuado</h2>
+    <p>
+      El usuario se compromete a no utilizar los servicios para actividades ilícitas, fraude, spam, suplantación de identidad
+      o cualquier acción que viole normativas aplicables o políticas de las plataformas de mensajería.
+    </p>
+
+    <h2>3. Propiedad intelectual</h2>
+    <p>
+      Los flujos, estructuras, lógica y activos desarrollados por AutoChat 24/7 forman parte de su propiedad intelectual,
+      salvo acuerdo escrito diferente. El cliente recibe derecho de uso durante la vigencia del servicio contratado.
+    </p>
+
+    <h2>4. Disponibilidad</h2>
+    <p>
+      Buscamos alta disponibilidad, pero la operación puede depender de terceros (plataformas, proveedores, conectores).
+      No garantizamos operación ininterrumpida en todo momento.
+    </p>
+
+    <h2>5. Pagos y cancelación</h2>
+    <p>
+      Los planes son mensuales salvo acuerdo distinto. Si el servicio no es pagado, AutoChat 24/7 puede pausar
+      funcionalidades hasta regularización. Implementaciones y trabajos a medida pueden tener condiciones específicas.
+    </p>
+
+    <h2>6. Limitación de responsabilidad</h2>
+    <p>
+      AutoChat 24/7 no es responsable por pérdidas indirectas, interrupciones de terceros o uso indebido del sistema
+      por parte del cliente o usuarios finales.
+    </p>
+
+    <h2>7. Contacto</h2>
+    <p>
+      Para consultas: <strong>autochat.soporte@gmail.com</strong> o WhatsApp <strong>+593 98 730 9452</strong>.
+    </p>
+  </main>
+
+  <footer class="footer">
+    <div class="container" style="display:flex; gap:14px; flex-wrap:wrap; align-items:center; justify-content:space-between">
+      <div>© 2026 AutoChat 24/7.</div>
+      <div style="display:flex; gap:14px; flex-wrap:wrap">
+        <a href="index.html">Inicio</a>
+        <a href="privacy.html">Política de Privacidad</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
