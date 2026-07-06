@@ -228,5 +228,95 @@
 
 <p>AutoChat 24/7 es una solución desarrollada por Nexoras Systems para optimizar la atención y procesos comerciales de las empresas.</p>
   </footer>
+        <!-- CHAT SOFIA - ZYPHORA SYSTEMS -->
+<style>
+  #sofia-chat-btn{
+    position:fixed;right:22px;bottom:22px;z-index:9999;
+    background:#00c2ff;color:white;border:none;border-radius:50%;
+    width:62px;height:62px;font-size:28px;cursor:pointer;
+    box-shadow:0 10px 30px rgba(0,0,0,.35);
+  }
+  #sofia-chat-box{
+    position:fixed;right:22px;bottom:95px;z-index:9999;
+    width:340px;max-width:90vw;background:#0b1220;color:white;
+    border-radius:18px;box-shadow:0 18px 45px rgba(0,0,0,.45);
+    display:none;overflow:hidden;font-family:Arial, sans-serif;
+  }
+  .sofia-head{background:#07182f;padding:16px;font-weight:bold}
+  .sofia-head span{display:block;font-size:13px;color:#9fdcff;font-weight:normal}
+  .sofia-body{padding:15px;height:260px;overflow-y:auto;font-size:14px}
+  .sofia-msg{margin:8px 0;padding:10px 12px;border-radius:12px;line-height:1.4}
+  .sofia-ai{background:#16233a}
+  .sofia-user{background:#00a3d9;text-align:right;margin-left:35px}
+  .sofia-form{display:flex;border-top:1px solid #22314d}
+  .sofia-form input{flex:1;padding:13px;border:none;outline:none;background:#101a2d;color:white}
+  .sofia-form button{padding:0 16px;border:none;background:#00c2ff;color:white;font-weight:bold;cursor:pointer}
+</style>
+
+<button id="sofia-chat-btn">💬</button>
+
+<div id="sofia-chat-box">
+  <div class="sofia-head">
+    Sofía · Zyphora Systems
+    <span>Recepción inteligente para empresas</span>
+  </div>
+  <div class="sofia-body" id="sofia-body">
+    <div class="sofia-msg sofia-ai">
+      Hola 👋 Soy Sofía, asistente de Zyphora Systems. Cuéntame qué necesita tu empresa y te ayudaré a encontrar la solución adecuada.
+    </div>
+  </div>
+  <form class="sofia-form" id="sofia-form">
+    <input id="sofia-input" type="text" placeholder="Escribe tu mensaje..." required>
+    <button type="submit">Enviar</button>
+  </form>
+</div>
+
+<script>
+  const SOFIA_WEBHOOK = "https://hook.us2.make.com/c2brse1khsq8drpfc5yip0mickgssgj4";
+
+  const chatBtn = document.getElementById("sofia-chat-btn");
+  const chatBox = document.getElementById("sofia-chat-box");
+  const form = document.getElementById("sofia-form");
+  const input = document.getElementById("sofia-input");
+  const body = document.getElementById("sofia-body");
+
+  chatBtn.onclick = () => {
+    chatBox.style.display = chatBox.style.display === "block" ? "none" : "block";
+  };
+
+  function addMsg(text, type){
+    const div = document.createElement("div");
+    div.className = "sofia-msg " + type;
+    div.textContent = text;
+    body.appendChild(div);
+    body.scrollTop = body.scrollHeight;
+  }
+
+  form.onsubmit = async (e) => {
+    e.preventDefault();
+    const mensaje = input.value.trim();
+    if(!mensaje) return;
+
+    addMsg(mensaje, "sofia-user");
+    input.value = "";
+    addMsg("Gracias, estoy revisando tu mensaje...", "sofia-ai");
+
+    try {
+      await fetch(SOFIA_WEBHOOK, {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({
+          canal: "web_chat",
+          nombre: "Visitante Web",
+          contacto_id: "web_" + Date.now(),
+          mensaje_usuario: mensaje
+        })
+      });
+    } catch (error) {
+      addMsg("No pude conectar en este momento. Intenta nuevamente en unos segundos.", "sofia-ai");
+    }
+  };
+</script>
+<!-- FIN CHAT SOFIA -->
 </body>
 </html>
